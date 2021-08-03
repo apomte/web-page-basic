@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portafolio</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- cabecera de la pagina web -->
+    <header class="header" id="inicio">
+    <img src="img/empanada.svg" alt="" class="empanada">
+    <!-- menu de navegacion -->
+    <nav class="menu-navegacion">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#expertos">Expertos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <!-- textos de nuestra cabesera -->
+    <div class="contenedor head">
+        <h1 class="titulo">Convertimos tus sueños en realidad</h1>
+        <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, debitis tempora ex temporibus ad cupiditate necessitatibus quod fugiat quasi aspernatur impedit eum, iusto repellendus quas voluptatem laudantium cum numquam consequuntur!</p>
+    </div>
+    </header>
+    <!-- main principal de inforacion de la pagina,galeria,expertos en -->
+    <main>
+        <!-- seccions de la descripcion de la pagina nuestros servicios -->
+        <section class="servicios contenedor" id="servicios">
+            <h2 class="subtitulo">Nuestros Servicios</h2>
+            <div class="contenedor-servicio">
+                <img src="img/Checklist _Monochromatic.svg" alt="">
+                <div class="checklist_servicio"></div>
+                <div class="div checklist_servicio">
+                    <div class="service">
+                        <h3 class="n_servicio"><span class="number"> 1</span>Diseño Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aliquam illum pariatur hic doloremque debitis ullam laudantium sapiente amet repudiandae impedit odit error, deserunt, quos dolore provident quae dignissimos aspernatur.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n_servicio"><span class="number"> 2</span>Diseño Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aliquam illum pariatur hic doloremque debitis ullam laudantium sapiente amet repudiandae impedit odit error, deserunt, quos dolore provident quae dignissimos aspernatur.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n_servicio"><span class="number"> 3</span>Diseño Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aliquam illum pariatur hic doloremque debitis ullam laudantium sapiente amet repudiandae impedit odit error, deserunt, quos dolore provident quae dignissimos aspernatur.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- seccion de la galeria -->
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="https://images.unsplash.com/photo-1484589065579-248aad0d8b13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1596&q=80" alt="" class="img_galeria">
+                    <img src="img/2.jpg" alt="" class="img_galeria">
+                    <img src="img/3.jpg" alt="" class="img_galeria">
+                    <img src="img/4.jpg" alt="" class="img_galeria">
+                    <img src="img/5.jpg" alt="" class="img_galeria">
+                    <img src="img/6.jpg" alt="" class="img_galeria">
+                </div>
+            </div>
+        </section>
+        <!-- efecto lightbox en las imagenes -->
+        <section class="img_light">
+         <img src="img/bx-window-close.svg" alt="" class="close">
+         <img src="" alt="" class="agregar_imagen">   
+        </section>
+        <!-- seccion expertos en -->
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en</h2>
+            <section class="experts">
+                <div class="contenedor_experts">
+                    <img src="img/Pie chart _Monochromatic.svg" alt="">
+                    <h3 class="n_experts">Analytics</h3>
+                </div>
+                <div class="contenedor_experts">
+                    <img src="img/Search engine _Monochromatic.svg" alt="">
+                    <h3 class="n_experts">SEO</h3>
+                </div>
+                <div class="contenedor_experts">
+                    <img src="img/Security_Monochromatic.svg" alt="">
+                    <h3 class="n_experts">Security</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+    <!-- pie de pagina -->
+    <footer id="contacto">
+        <div class="contenedor footer_content">
+            <div class="contact_us">
+                <h2 class="brand">Jefferson Design</h2>
+                <p>Soy Experto en en crear sueños</p>
+            </div>
+            <div class="social_media">
+                <a href="./" class="social_media_icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+            </div>
+            <div class="social_media">
+                <a href="./" class="social_media_icon">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+            </div>
+            <div class="social_media">
+                <a href="./" class="social_media_icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <!-- archivos .js -->
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+
+</body>
+</html>
